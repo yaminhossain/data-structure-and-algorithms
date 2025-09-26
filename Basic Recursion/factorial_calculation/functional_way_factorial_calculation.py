@@ -1,5 +1,5 @@
 """ This program is written using the functional way for recursion. 
-Which means recursive function termination do not depend on parameters """
+Which means recursive function termination does not depend on parameters """
 
 n = int(input("Enter a number:\n"))
 print("-----------------------------------")
