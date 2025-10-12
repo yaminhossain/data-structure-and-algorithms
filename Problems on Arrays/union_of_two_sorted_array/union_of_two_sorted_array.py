@@ -36,10 +36,15 @@ def union_of_arrays(a, b):
     return union_array
 
 
-# a=[1,1,2,3,4,5]
-# b=[2,3,4,4,5,6]
-a=[6]
-b=[3,4]
+a=[1,1,2,3,4,5]
+b=[2,3,4,4,5,6]
+# a=[6]
+# b=[3,4]
+# a=[2,2,1,3,4] # Not going to work as the arrays need to sorted
+# b=[1,3,4]
 
 result = union_of_arrays(a,b)
 print(result)
+
+# Time Complexity: TC = O(n1+n2) // As iterating each elements of both array
+# Space Complexity: SC = O(n1+n2) // As taking extra array which will contain each in worst case.
