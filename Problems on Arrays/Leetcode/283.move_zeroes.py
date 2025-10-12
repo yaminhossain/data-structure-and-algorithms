@@ -1,3 +1,5 @@
+#Two pointers solution
+
 def move_zeros(nums):
     j=-1
     for i in range(int(len(nums))):

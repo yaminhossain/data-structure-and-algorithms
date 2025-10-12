@@ -18,3 +18,6 @@ def rightRotate(arr, k):
 arr =[1,2,3,4,5,6]
 result = rightRotate(arr,3)
 print(result)
+
+#Time complexity: TC= O(d)+O(n-d)+O(n) = O(2n)= O(n)
+#Space complexity: SC= O(1)
