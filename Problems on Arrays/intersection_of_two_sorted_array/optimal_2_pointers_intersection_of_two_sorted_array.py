@@ -7,6 +7,7 @@ def get_intersection(a,b):
     i=0
     j=0
     while(i<a_len and j<b_len):
+        # Because if we take an element and go to the right, we will get an element either greater than that or equal to the taken element.
         if(a[i] < b[j]): i+=1
         elif(b[j] < a[i]): j+=1
         else:
