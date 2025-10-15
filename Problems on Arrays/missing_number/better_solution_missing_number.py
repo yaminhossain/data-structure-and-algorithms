@@ -14,4 +14,5 @@ arr=[1,2,4,5]
 res=get_missing_number(arr)
 print(res)
 
-# Time complexity: TC = O(n)+O(n) = O(2n)
+# Time complexity: TC = O(n)+O(n) = O(2n) // Time for hashing + time for retrieving data for hash array
+# Space complexity: SC = O(n) // As we are using a extra hash array for storing data
