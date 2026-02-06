@@ -1,3 +1,5 @@
+# This problem is slightly different from the LeetCode problem as LeetCode problem wants to return array of indices where here wants to return True or False
+
 def getTwoSum(nums, target):
     nums.sort()
     left,right=0, len(nums)-1
@@ -9,7 +11,8 @@ def getTwoSum(nums, target):
             left+=1
         # (sum == target)
         else:
-            return [left,right]
+            return True
+    return False
 
 nums = [3,2,4]
 target = 6
